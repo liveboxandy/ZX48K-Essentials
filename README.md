@@ -14,4 +14,4 @@ For sure we want to have those things that make a Z80 system The Spectrum - ULA 
 
 * For the power supply we will use modern regulator like TRACO. Also (as in Harlequin) we will add rectifing bridge to save us from mistakenly connecting power supply with wrong polarity which is likely to happen as Spectrum uses negative-center jack while nowadays positive-center is common.
 
-About the parts. I replace audio sockets with PJ-307 commonly applied to retro systems. I use small resistors, however you could squezee bigger one. After a long consideration I've decided to get rid of blue electrolitic capacitors but leave original small axial ones. 
+About the parts. I replace audio sockets with PJ-307 commonly applied to retro systems. I use small resistors, however you could squezee bigger ones. After a long consideration I've decided to get rid of blue electrolitic capacitors :-) but leave original small axial ones. 
