@@ -8,10 +8,10 @@ For sure we want to have those things that make a Z80 system The Spectrum - ULA 
 
 * Dynamically refreshed Lower RAM based on 4116 chips can be replaced with more up to date static RAM that also allows to get rid of most of power supply section because we no longer need to have -5V and +12V supply. This is the solution commonly used in memory replacements boards.
 
-* Originall Upper RAM chips use only one voltage however we could easly replace it with one 32KB chip.
+* Originall Upper RAM chips use only one voltage however we could easly replace it with one 32KB chip. Also memory type selection jumpers are not needed.
 
 * Content of the ROM stays unchanged however when you build your ZX Spectrum you probably will not use source original PROM. You probably copy its content to modern EEPROM chip like W27C512. Also we can rid of of ROM type switching jumpers.
 
-* For teh power supply we will use modern regulator like TRACO TSR-2450. Also (as in Harlequi) we will add rectifing bridge to save us from mistakenly connecting powre supply with wronmg polarity which is more likely to happen as Spectrum uses negative center while nowadays positive center is ccommon.
+* For the power supply we will use modern regulator like TRACO. Also (as in Harlequin) we will add rectifing bridge to save us from mistakenly connecting power supply with wrong polarity which is likely to happen as Spectrum uses negative-center jack while nowadays positive-center is common.
 
 About the parts. I replace audio sockets with PJ-307 commonly applied to retro systems. I use small resistors, however you could squezee bigger one. After a long consideration I've decided to get rid of blue electrolitic capacitors but leave original small axial ones. 
