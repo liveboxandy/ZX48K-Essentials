@@ -1,5 +1,4 @@
 # ZX48essentials
-Modernized version of Sinclair ZX Spectrum 48K computer.
 
 Sinclair ZX Spectrum 48K computer released in 1982, was not the best one in terms of features but for sure became one of the most influential one. A lot of hobbiest who collect, repair, mod Spectrum think about creating their own version. Keeping the original idea/design but replacing those section where you could easily do better. 
 
