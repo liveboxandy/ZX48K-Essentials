@@ -1,9 +1,9 @@
 # ZX48essentials
 Modernized version of Sinclair ZX 48K computer
 
-Sinclair ZX Spectrum 48K computer released in 1982 was not the best one in terms of features but for sure became one of the most influentials one. A lot of hobbiest who collect, repair, mods Spectrum think about creating their own version. Keeping the original idea/design but replacing those elments that you could do better. 
+Sinclair ZX Spectrum 48K computer released in 1982 was not the best one in terms of features but for sure became one of the most influential one. A lot of hobbiest who collect, repair, mod Spectrum think about creating their own version. Keeping the original idea/design but replacing those section where you could easily do better. 
 
-For sure we leave those two things that make a Z80 system the Spectrum - ULA with its architecture and ROM and for sure we need to improve on memory. While changing the memory we will also change power supply design. 
+For sure we leave those two things that make a Z80 system the Spectrum - ULA with its architecture, ROM and original case and keyboard.
 
 Changes.
 
@@ -19,3 +19,4 @@ Most of elements are marked as originals and located in the same places.
 
 For teh power supply we will use modern regulator like TRACO TSR-2450. Also (as in Harlequi) we will add rectifing bridge to save us from mistakenly connecting powre supply with wronmg polarity which is more likely to happen as Spectrum uses negative center while nowadays positive center is ccommon.
 
+About the parts. I replace audio sockets with PJ-307 commonly applied to retro systems. I use small resistors, however you could squezee bigger one. After a long consideration I've decided to get rid of blue electrolitic capacitors but leave original small axial ones. 
