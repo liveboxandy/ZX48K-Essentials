@@ -2,7 +2,7 @@
 
 Sinclair ZX Spectrum 48K computer released in 1982, was not the best one in terms of features but for sure became one of the most influentials. A lot of hobbiest who collect, repair or mod Spectrum think about creating their own version - keeping the original idea/design but replacing those sections where you could easily do better nowadays. 
 
-For sure we want to have those things that make a Z80 system The Spectrum - ULA with its architecture, content of the ROM and original case and keyboard. Most elements have original markings and are located in the same places. 
+For sure we want to have those things that make a Z80 system The Spectrum - ULA with its architecture, content of the ROM and original case and keyboard. Also, elements have original markings and are located in the same places. 
 
 * We leave the ULA chip but use modern replacement produces by vRetro Design that also has a RGB output. Thus, we don't need to bother with all that analogue circuity that occupies one third of the board and produces TV signal. We use mini DIN8 connector (as in Harlequin) to output signal to monitor.
 
