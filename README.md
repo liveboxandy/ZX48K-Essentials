@@ -22,7 +22,7 @@ The main design decision concerns ULA. You might want to use original one but it
 
 ## About the parts
 
-* Except for added components all others have original markings and are located in the same places as in ZX Spectrum 48K Issues 3B.
+* Except for added components all others have original markings and are located in the same places as in ZX Spectrum 48K Issue 3B.
   
 * Standard size 0,25W resistors are used, however length is decreased from 0.6” to 0,5”. I really hate those rows of bus separation/pullups resistors so network ones are used wherever possible (sorry!).
   
@@ -32,7 +32,7 @@ The main design decision concerns ULA. You might want to use original one but it
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor.
   
-* Rectifying bridge – if you think this is below you, shorten adequate pins and don’t use it.
+* If you think using rectifying bridge is below you, shorten adequate pins and don’t use it.
   
 ## Important remarks
 
