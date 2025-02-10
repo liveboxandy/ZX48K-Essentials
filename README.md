@@ -1,6 +1,6 @@
 # ZX48essentials
 
-## Intro
+## Introduction
 
 Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design but replacing sections where you could easily do better, even in 80’s. 
 
@@ -46,9 +46,6 @@ The main design decision concerns ULA. You might want to use original one but it
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor.
   
-## Other remarks
-
-* Why not 128K? I think 48K is real ZX Spectrum. Everything later is add-on.
 
 Have fun!
 
