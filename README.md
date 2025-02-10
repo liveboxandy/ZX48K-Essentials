@@ -10,7 +10,7 @@ It has to be said that this is not revolutionary work. There are lots of similar
 
 ## Design
 
-The main design decision concerns ULA. You might want to use original one but this is difficult to get and you need to build extensive analog circuit (that occupies one third of the board) and you get relatively poor composite picture. On the other hand you can use modern FPGA replacement that gives you RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use vLA82S+ by vRetro Design. This is FPGA based ULA replacement that has RGB output but is drop-in replacement for original chip so original architecture will have to be retained. Other changes are:
+The main design decision concerns ULA. You might want to use original one but it is difficult to get and you need to build extensive analog circuit (that occupies one third of the board) and you still get relatively poor composite picture. On the other hand, you could use modern FPGA replacement that gives you RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use vLA82S+ by vRetro Design. This is FPGA based ULA replacement that has RGB output but is drop-in replacement for original chip so original architecture will have to be retained. Other changes are:
 
 * Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of most all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in memory replacements boards – using set of flip-flops (74574) we hook new RAM into address multiplexers used in original ULA architecture.
 
