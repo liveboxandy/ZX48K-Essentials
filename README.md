@@ -26,7 +26,7 @@ The main design decision concerns ULA. You might want to use original one but it
   
 * Standard size 0,25W resistors are used, however length is decreased from 0.6” to 0,5”. I really hate those rows of bus separation/pullups resistors so network ones are used wherever possible (sorry!).
   
-* Axial capacitors are used as in original design but you can put disc ones instead. I could not resist and left blue electrolytic capacitors :-) however there is option for radial ones as well.
+* Axial capacitors are used as in original design but you can put disc ones instead. I could not resist and left blue electrolytic capacitors :-) however there is option for radial ones as well. Four unmarked small elements are additional decoupling 100nF capacitors.
   
 * Original audio sockets are replaced with PJ-307 ones, commonly used in retro systems.
   
