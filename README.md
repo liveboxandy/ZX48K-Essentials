@@ -51,6 +51,7 @@ The main design decision concerns ULA. You might want to use original one but it
 * Why not 128K? I think 48K is real ZX Spectrum. Everything later is add-on.
 
 Have fun!
+
 Tomasz
 
 > [!NOTE]
