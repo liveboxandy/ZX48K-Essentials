@@ -38,7 +38,7 @@ The main design decision concerns ULA. You might want to use original one but it
 
 * Because power section is limited, only 5V is available on edge connector.
   
-* if you plan to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
+* If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor.
   
