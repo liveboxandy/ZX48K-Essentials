@@ -48,5 +48,5 @@ Have fun!
 Tomasz
 
 > [!NOTE]
-> Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your doings not me!
+> Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your doings not me.
 
