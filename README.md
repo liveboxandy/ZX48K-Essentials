@@ -22,27 +22,27 @@ The main design decision concerns ULA. You might want to use original one but th
 
 ## About the parts
 
-* Except for added elements all others have original markings and are located in the same places as in ZX Spectrum 48K Issues 3B.
+* Except for added components all others have original markings and are located in the same places as in ZX Spectrum 48K Issues 3B.
   
-* Standard size 0,25W resistors are used however length is decreased from 0.6” to 0,5”.
+* Standard size 0,25W resistors are used, however length is decreased from 0.6” to 0,5”.
   
-* I really hate those rows of bus separation/pullups resistors so network ones are used wherever possible.
+* I really hate those rows of bus separation/pullups resistors so network ones are used wherever possible (sorry!).
   
 * Axial capacitors are used as in original design but you can put disc ones instead.
   
-* I could not resist and left blue electrolytic capacitors :-) however there is mounting for radial ones as well.
+* I could not resist and left blue electrolytic capacitors :-) however there is option for radial ones as well.
   
-* Original audio sockets are replaced with PJ-307 commonly applied to retro systems.
+* Original audio sockets are replaced with PJ-307 ones, commonly used in retro systems.
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor.
   
-* Rectifying bridge – if you think this is below you – shorten adequate pins and don’t use it.
+* Rectifying bridge – if you think this is below you, shorten adequate pins and don’t use it.
   
 ## Important remarks
 
 * Because power section is limited, only 5V is available on edge connector.
   
-* vLA82S+ must be soldered if you plan to put the board in ZX Spectrum 48K case. For ZX Spectrum 48K+ case you can use socket (standard not precision!).
+* if you plan to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor.
   
@@ -51,9 +51,11 @@ The main design decision concerns ULA. You might want to use original one but th
 * Why not 128K? I think 48K is real ZX Spectrum. Everything later is add-on.
 
 
+
 Have fun!
 
 Tomasz
+
 
 Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember you’re responsible for your doing not me.
 
