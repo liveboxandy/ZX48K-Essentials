@@ -1,6 +1,6 @@
 # ZX48essentials
 
-Intro
+## Intro
 
 Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design but replacing those sections where you could easily do better, even in 80’s. 
 
@@ -8,7 +8,7 @@ The idea would be to retain as much as possible from original design, having all
 
 It has to be said that this is not revolutionary work. There are lots of similar projects and this one could be easily called Yet Another Spectrum Clone but as I said before, every Spectrum lover would like to have his/her own version. So get to know mine - hope you like it!
 
-**Design **
+## Design
 
 The main design decision concerns ULA. You might want to use original one but this is difficult to get and you need to build extensive analog circuit (that occupies one third of the board) and you get relatively poor composite picture. On the other hand you can use modern FPGA replacement that gives you RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use vLA82S+ by vRetro Design. This is FPGA based ULA replacement that has RGB output but is drop-in replacement for original chip so original architecture will have to be retained. Other changes are:
 
@@ -20,7 +20,7 @@ The main design decision concerns ULA. You might want to use original one but th
   
 * For the power supply section we will use switching regulator 2450. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen as Spectrum uses center-negative jack while nowadays almost everything is center-positive).
 
-About the parts
+## About the parts
 
 * Except for added elements all others have original markings and are located in the same places as in ZX Spectrum 48K Issues 3B.
   
@@ -38,7 +38,7 @@ About the parts
   
 * Rectifying bridge – if you think this is below you – shorten adequate pins and don’t use it.
   
-Important remarks
+## Important remarks
 
 * Because power section is limited, only 5V is available on edge connector.
   
@@ -46,9 +46,10 @@ Important remarks
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor.
   
-Other remarks
+## Other remarks
 
 * Why not 128K? I think 48K is real ZX Spectrum. Everything later is add-on.
+
 
 Have fun!
 
