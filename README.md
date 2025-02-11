@@ -45,7 +45,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 Have fun!
 
-Tomasz
+Tomek
 
 > [!NOTE]
 > Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your doings and the consequences, not me.
