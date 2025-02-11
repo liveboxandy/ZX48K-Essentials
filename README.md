@@ -38,7 +38,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
-* As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor.
+* As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor. If you connect divMMC with microSD card and Kempston joystick interface, you have everything you need.
   
 
 Have fun!
@@ -46,5 +46,5 @@ Have fun!
 Tomasz
 
 > [!NOTE]
-> Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your doings not me.
+> Disclaimer: This is my project that I’ve built and it works for me. You can do it as well but remember, you’re responsible for your doings and its consequences, not me.
 
