@@ -40,7 +40,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
-* As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor. If you connect [divMMC](https://www.tfw8b.com/product/divmmc-future-sinclair-zx-spectrum/) with microSD card and Kempston joystick interface, you have everything you need.
+* As a bonus, vLA82S+ has write-only AY-3-8910 sound generator built-in. L and R channels are mixed and output as one to TV/monitor. If you connect [divMMC interface](https://www.tfw8b.com/product/divmmc-future-sinclair-zx-spectrum/) with microSD card and Kempston joystick, you have everything you need.
   
 
 Have fun!
