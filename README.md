@@ -20,7 +20,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 ## About the parts
 
-* Except for added components (marked with numbers 200+) all others have original markings and are located in the same places as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors.
+* Except for added components (marked with numbers 200+) all others have original markings and are located in the same places as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (R=2.54mm).
   
 * Standard size 0,25W resistors are used, however length is decreased from 0.6” to 0,5”. I really hate those rows of bus separation/pullups banks so network resistors are used wherever possible.
   
