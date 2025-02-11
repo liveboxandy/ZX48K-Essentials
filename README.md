@@ -34,7 +34,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 ## Important remarks
 
-* Because power section is severely reduced, only 5V is available on edge connector.
+* Because power section is severely reduced, only +5V is available on edge connector.
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
