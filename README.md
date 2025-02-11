@@ -4,11 +4,11 @@
 
 Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design that makes a Z80 system The Spectrum: ULA with its architecture, content of the ROM, original case and keyboard but getting rid of nonsenses where you could easily do better, even in 80’s. 
 
-It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could be easily called Yet Another Spectrum Clone but as I said before, every Spectrum lover would like to have his own version. I hope you like mine.
+It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could be easily called Yet Another Spectrum Clone but as I said before, every Spectrum lover would like to have his/her own version. I hope you like mine.
 
 ## Design
 
-The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to build extensive analog video circuit (that occupies one third of the board) and you still get relatively poor composite picture. On the other hand, you could use modern FPGA replacement that gives you RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use vLA82S+ by vRetro Design. This is FPGA based ULA replacement that has RGB output but is drop-in replacement for original chip so original architecture will have to be retained. Other changes are:
+The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to build extensive analog video circuit (that occupies one third of the board) and you still get relatively poor composite picture. On the other hand, you could use modern FPGA replacement that gives RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use vLA82S+ version by vRetro Design. This is FPGA based ULA replacement that has RGB output but is drop-in replacement for original chip so original architecture will be retained. Other changes are:
 
 * Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of most all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in memory replacements boards – using set of flip-flops (74574) we hook new RAM into address multiplexers used in original ULA architecture.
 
