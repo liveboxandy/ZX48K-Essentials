@@ -30,7 +30,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor.
   
-* If you think using rectifying bridge is below you, shorten adequate pins and don’t use it.
+* If you think using rectifying bridge is below you, shorten pins 1-4, 2-3 and don’t use it.
   
 ## Important remarks
 
