@@ -10,13 +10,13 @@ It has to be said that this is not by any means revolutionary work. There are lo
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to build extensive analog video circuit (that occupies one third of the board) and you still get relatively poor composite picture. On the other hand, you could use modern FPGA replacement that gives RGB output but this is not ULA architecture (on an outside) any longer. Decision was made to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) version by vRetro Design. This is FPGA based ULA that has RGB output but is drop-in replacement for original chip so original architecture will be preserved. Other changes are:
 
-* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in memory replacements boards – using set of flip-flops (74574) we hook new RAM into address multiplexers used in original ULA architecture.
+* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in memory replacements boards – using set of flip-flops (74574) we hook new RAM to address multiplexers used in original ULA architecture.
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
 * Content of the ROM stays unchanged however when you build your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512. ROM type jumpers are no longer needed.
   
-* For the power supply section we will use switching regulator 2450. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen as Spectrum uses center-negative jack while nowadays almost everything is center-positive).
+* For the power supply section we will use switching regulator 2450. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you have more machines as Spectrum uses center-negative jack while nowadays almost everything is center-positive).
 
 ## About the parts
 
