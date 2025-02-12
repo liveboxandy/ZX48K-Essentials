@@ -16,7 +16,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * Content of the ROM stays unchanged however when you build your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512. ROM type jumpers are no longer needed. You may also consider Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view).
   
-* For the power supply section we will use switching regulator 2450. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you have more machines as Spectrum uses center-negative jack while nowadays almost everything is center-positive).
+* For the power supply section we will use switching regulator. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines as Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
 ## About the parts
 
