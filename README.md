@@ -34,6 +34,8 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Have in mind, that [40 ohm speaker](https://www.mutant-caterpillar.co.uk/shop/product_info.php?products_id=2725) might be difficult to find.
   
+![picture](board_picture.jpg)
+
 ## Important remarks
 
 * Because power section is severely reduced, only +5V is available on edge connector.
