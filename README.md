@@ -14,7 +14,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
-* Content of the ROM stays unchanged however when you build your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512. ROM type jumpers are no longer needed. You may also consider Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view).
+* Content of the ROM stays unchanged however when you build your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512. ROM type jumpers are no longer needed. You may also check Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view).
   
 * For the power supply section we will use switching regulator. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines as Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
@@ -22,7 +22,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Except for added components (marked with numbers 200+) all others have original markings and are located in the same places on a pcb as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (R=2.5mm).
   
-* Standard size 0,25W resistors are used, however their length is decreased from 0.6” to 0,5”. I really hate those rows of bus separation/pullups banks so network resistors are used wherever possible.
+* Standard size 0,25W resistors are used, however their length is decreased from 0.6” to 0,5”. I really hate those banks of bus separation/pullups resistors so network ones are used wherever possible.
   
 * Axial capacitors are used as in original design but you can put disc ones instead. I could not resist and left blue electrolytic capacitors (only two since there are no power and video sections), however there is option to use radial as well. 
   
