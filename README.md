@@ -14,7 +14,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
-* While building your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512 that you program with [Content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed. Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is also worth checking.
+* While building your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM chip like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed. Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is also worth checking.
   
 * For the power supply section we use modern switching regulator. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
