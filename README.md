@@ -38,7 +38,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 Fully asembled ZX48essentials PCB in green.
 
-![board_photo](board_photo.jpg)
+![board_photo](ZX48essentials_board_photo.jpg)
 
 ## Important remarks
 
