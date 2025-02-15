@@ -36,7 +36,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 ## Board
 
-Fully asembled ZX48essentials PCB in green.
+Fully asembled ZX48essentials PCB in green. Tested with: different diagnostic ROMs, Kempston Pro, divMMC and Interface 2.
 
 ![board_photo](ZX48essentials_board_photo.jpg)
 
