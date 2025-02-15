@@ -38,7 +38,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 Fully asembled ZX48essentials PCB in green. 
 
-Tested with: different diagnostic ROMs, Kempston Pro Joystick Interface, divMMC Future from Tfw8bit and ZX Interface 2.
+Tested with different diagnostic ROMs, Kempston Pro Joystick Interface, divMMC Future and ZX Interface 2.
 
 ![board_photo](ZX48essentials_board_photo.jpg)
 
