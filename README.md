@@ -30,7 +30,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-).
   
-* If you think using rectifying bridge is below you, shorten pins 1-4, 2-3 and don’t use it.
+* If you think using rectifying bridge is below you, shorten its pins 1-4, 2-3 and don’t use it.
 
 * Be aware that [40 ohm speaker](https://www.mutant-caterpillar.co.uk/shop/product_info.php?products_id=2725) might be difficult to find.
 
