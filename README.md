@@ -10,7 +10,7 @@ It has to be said that this is not by any means revolutionary work. There are lo
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to clone extensive analog video circuit (that occupies one third of the board) still getting relatively poor composite picture. On the other hand, you could use modern FPGA replacement that has RGB output but this is not ULA architecture (on an outside) any longer. I decided to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) by vRetro Design. This is FPGA based ULA with RGB output but also a drop-in replacement for original chip so Sinclair's architecture will be preserved. Other changes are:
 
-* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) we hook new RAM to address multiplexers used in original architecture.
+* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) we hook new RAM to address multiplexers used in original design.
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
@@ -20,7 +20,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 ## About the parts
 
-* Except for added components (marked with numbers 200+) all others have original markings and are located in the same places on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (R=2.5mm).
+* Except for added components (marked with numbers 200+) all others have original references and are located in the same places on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (R=2.5mm).
   
 * Standard size 0,25W resistors are used, however their length is decreased from 0.6” to 0,5”. I really hate those banks of bus separation/pullups resistors so network ones are used wherever possible.
   
