@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design that makes a Z80 system The Spectrum: ULA with its architecture, content of the ROM, original case and rubber keyboard but getting rid of nonsenses where you could easily do better, even in 80’s. 
+Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design that makes a Z80 system The Spectrum: ULA with its architecture, content of the ROM, original case and rubber keyboard but getting rid of all nonsenses where you could easily do better, even in 80’s. 
 
 It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could easily be called Yet Another Spectrum Clone but as mentioned before, every Spectrum lover would like to have his/her own version. I hope you like mine.
 
@@ -10,7 +10,7 @@ It has to be said that this is not by any means revolutionary work. There are lo
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to get and you need to clone extensive analog video circuit (that occupies one third of the board) still getting relatively poor composite picture. On the other hand, you could use modern FPGA replacement that has RGB output but this is not ULA architecture (on an outside) any longer. I decided to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) by vRetro Design. This is FPGA based ULA with RGB output but also a drop-in replacement for original chip so Sinclair's architecture will be preserved. Other changes are:
 
-* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) we hook new RAM to address multiplexers used in original design.
+* Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) we hook up new RAM to address multiplexers used in original design.
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
