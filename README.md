@@ -16,7 +16,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * While building your ZX Spectrum you probably will not source original PROM but instead use modern EEPROM like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed. Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is also worth checking.
   
-* In power supply section we use efficient modern switching regulator that doesn't require a radiator. Also (as in MAX/Harlequin) we will add rectifying bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
+* In power supply section we use efficient modern switching regulator that doesn't require a radiator. Also (as in MAX/Harlequin) we will add rectifier bridge to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
 ## About the parts
 
@@ -30,7 +30,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-).
   
-* If you think using rectifying bridge is below you, shorten its pins 1-4, 2-3 and don’t use it.
+* If you think using rectifier bridge is below you, shorten its pins 1-4, 2-3 and don’t use it.
 
 * Be aware that [40 ohm speaker](https://www.mutant-caterpillar.co.uk/shop/product_info.php?products_id=2725) might be difficult to find.
 
