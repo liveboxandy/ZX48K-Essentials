@@ -18,7 +18,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * In power supply section we use efficient modern switching regulator that doesn't require a radiator. Also (as in MAX/Harlequin) we will add bridge rectifier to save us from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
-## About the parts
+## Parts
 
 * Except for added components (marked with numbers 200+) all others have original references and are located in the same places on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (P=2.5mm).
   
@@ -42,7 +42,7 @@ Tested with diagnostic ROMs, Kempston Pro Joystick Interface, [divMMC Future](ht
 
 ![board_photo](ZX48essentials_board_photo.jpg)
 
-## Important remarks
+## Remarks
 
 * Because power section is severely reduced, only +5V is available on edge connector.
   
