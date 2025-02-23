@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, probably think about creating their own version - keeping the original idea/design that makes a Z80 system The Spectrum: ULA with its architecture, content of the ROM, original case and rubber keyboard but getting rid of all nonsenses where you could easily do better, even in 80’s. 
+Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, might think about creating their own version - keeping the original idea/design that makes a Z80 system the Spectrum: ULA with its architecture, content of the ROM, original case and rubber keyboard but getting rid of all nonsenses where you could easily do better, even in 80’s. 
 
 It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could easily be called Yet Another Spectrum Clone but as mentioned before, every Spectrum lover would like to have his/her own version. I hope you like mine.
 
