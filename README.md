@@ -48,7 +48,7 @@ Tested with diagnostic ROMs, Kempston Pro Joystick Interface, [divMMC Future](ht
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
   
-* As a bonus, vLA82S+ has write-only AY-3-8910 compatibile sound generator built-in. L and R channels are mixed and output as one to TV/monitor. If you connect microSD card interface that often has joystick port, you have everything you need :-)
+* As a bonus, vLA82S+ has write-only AY-3-8910 compatibile sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need :-)
   
 
 Have fun!
