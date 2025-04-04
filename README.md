@@ -26,7 +26,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * Axial capacitors are used as in original design but you can install disc ones instead. I could not resist and left blue electrolytic capacitors (only two since there are no power and video sections), however there are mounting holes underneath (P=2.0mm) to use radial as well. 
   
-* Original audio sockets are replaced with PJ-307 ones, commonly used in retro systems.
+* Original audio sockets are replaced with PJ-307 ones, commonly used in retro systems nowadays.
   
 * Mini DIN8 connector (as in Harlequin 48K) is used to output RGB signal and mono sound to TV/monitor using [RGB Scart Lead cable](https://www.ebay.com/itm/253830448917?epid=17023035733&itmmeta=01JKTFD61QHFB48BB7ZDRB7SRS&hash=item3b19794715:g:KvwAAOSwlb5nn9B-).
   
