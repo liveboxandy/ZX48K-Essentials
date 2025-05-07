@@ -32,7 +32,7 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * If you think using bridge rectifier is below you, shorten its pins 1-4, 2-3 and don’t use it.
 
-* Be aware that [40 ohm speaker](https://www.mutant-caterpillar.co.uk/shop/product_info.php?products_id=2725) might be difficult to find.
+* Be aware that 40 ohm speaker might be difficult to find.
 
 ## Board
 
