@@ -1,4 +1,4 @@
-# ZX48essentials
+# ZX48K-Essentials
 
 ## Introduction
 
