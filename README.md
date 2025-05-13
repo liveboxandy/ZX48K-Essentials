@@ -4,11 +4,11 @@
 
 Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, might be tempted to create their own version - keeping the original idea/design that makes a Z80 system the Spectrum: ULA with its architecture, content of the ROM, original case and rubber keyboard but getting rid of all nonsenses where you could easily do better, even in 80’s. 
 
-It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could easily be called Yet Another Spectrum Clone but as mentioned before, every Spectrum lover would like to have his/her own version. I hope you like mine.
+It has to be said that this is not by any means revolutionary work. There are lots of similar projects and this one could easily be called Another Spectrum Clone but as mentioned before, every Spectrum lover would like to have his/her own version. I hope you like mine.
 
 ## Design
 
-The idea is to leave all ZX Spectrum 48K design and components as they were and introduce only couple of changes. 
+The idea was to leave all ZX Spectrum 48K components as they were and introduce only couple of changes. 
 
 The main design decision concerns ULA. You might want to use original chip but it is difficult to find and you need to clone extensive analog video circuit (that occupies one third of the board) still getting relatively poor composite picture. On the other hand, you could use modern FPGA replacement that has RGB output but this is not ULA architecture (on the outside) any longer. I decided to use [vLA82S+](https://www.vretrodesign.com/products/vla82s-spectrum-ula-replacement-with-rgb-interface-and-ay-emulator-without-interface) by vRetro Design. This is FPGA based ULA with RGB output but also a drop-in replacement for original chip so Sinclair's architecture will be preserved. Other changes are:
 
