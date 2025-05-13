@@ -14,7 +14,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Dynamically refreshed Lower RAM based on 4116 chips is replaced with more convenient static RAM which also allows to get rid of almost all of power supply section as -5V and +12V voltages are no longer needed. This is the solution commonly used in modern [memory replacements modules](https://www.retroleum.co.uk/spectrum-repairs-mods) – using set of flip-flops (74LS574) to hook up new RAM to address multiplexers used in original design.
 
-* Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however we could easily replace them with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
+* Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however they could easily be replaced with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
 * While building your ZX Spectrum you probably will not source (difficult to get) original PROM but instead use modern EEPROM like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed. Also Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is worth checking.
   
