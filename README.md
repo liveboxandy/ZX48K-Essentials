@@ -20,6 +20,8 @@ The main design decision concerns ULA. You might want to use original chip but i
   
 * In power supply section efficient modern switching regulator is used that doesn't require a radiator. Also (as in MAX/Harlequin) bridge rectifier is added to save from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
+Everything else is left intact.
+
 ## Parts
 
 * Except for added components (marked with numbers 200+) all others have original references and are located in the same places on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (P=2.5mm).
