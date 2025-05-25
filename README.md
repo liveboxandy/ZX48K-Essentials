@@ -16,7 +16,7 @@ The main design decision concerns ULA. You might want to use original chip but i
 
 * Dynamically refreshed Upper RAM 4132/64 chips use only one voltage, however they could easily be replaced with one 32KB static RAM chip. Memory type selection jumpers are no longer needed.
   
-* While building your ZX Spectrum you probably will not source (difficult to get) original PROM but instead use modern EEPROM like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed. Also Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is worth checking.
+* While building your ZX Spectrum you probably will not source (difficult to get) original PROM but instead use modern EEPROM like W27C512 that you program with [content of the ROM](https://speccy4ever.speccy.org/_SIN.htm). ROM type jumpers are no longer needed.
   
 * In power supply section efficient modern switching regulator is used that doesn't require a radiator. Also (as in MAX/Harlequin) bridge rectifier is added to save from mistakenly connecting power supply with wrong polarity (which from experience is likely to happen if you use more machines because Spectrum uses center-negative power jack while nowadays almost everything is center-positive).
 
@@ -51,6 +51,8 @@ Tested with [Diagnostic ROM](https://blog.retroleum.co.uk/electronics-articles/a
 * Because power section is severely reduced, only +5V is available on edge connector.
   
 * If you intend to put the board in ZX Spectrum 48K case, vLA82S+ must be soldered. For ZX Spectrum 48K+ case you can use socket (standard not precision).
+
+* Geoff Wearmouth's [Looking Glass ROM](https://drive.google.com/file/d/1Mf0jTW43AdGkd5ZbCQTpsrJHTxZ-JjuA/view) is worth checking.
   
 * As a bonus, vLA82S+ has write-only AY-3-8910 compatible sound generator built-in. L and R channels are mixed and output as one to TV/monitor through mini DIN socket. If you connect microSD card interface that often has joystick port, you have everything you need :-)
   
