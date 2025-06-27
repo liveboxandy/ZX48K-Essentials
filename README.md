@@ -24,7 +24,7 @@ Everything else is left intact.
 
 ## Parts
 
-* Except for added components (marked with numbers 200+) all others have original references and are located in the same places on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (P=2.5mm).
+* Except for added components (marked with numbers 200+) all others have <ins>original references</ins> and are located in the <ins>same places</ins> on a PCB as in ZX Spectrum 48K Issue 3B. Four unmarked small elements are additional decoupling 100nF capacitors (P=2.5mm).
   
 * Standard size 0,25W resistors are used, however compared to original their length is decreased from 0.6” to 0,5”. I really hate those banks of bus separation/pullup resistors so network ones are used wherever possible.
   
