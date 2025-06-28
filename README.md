@@ -40,7 +40,7 @@ Everything else is left intact.
 
 ## Board
 
-KiCad project of th board
+KiCad project of the board.
 
 ![ZX48K-Essentials_pcb](https://github.com/user-attachments/assets/2b1f9256-820f-4266-8021-0cc318a1e85f)
 
