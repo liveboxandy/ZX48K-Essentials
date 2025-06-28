@@ -40,6 +40,10 @@ Everything else is left intact.
 
 ## Board
 
+In Kicad 
+
+![ZX48K-Essentials_pcb](https://github.com/user-attachments/assets/eeb0a789-a39c-4bf2-a8fe-eb3485a0040e)
+
 Fully assembled ZX48essentials PCB in green. 
 
 Tested with [Diagnostic ROM](https://blog.retroleum.co.uk/electronics-articles/a-diagnostic-rom-image-for-the-zx-spectrum/), Kempston Pro Joystick Interface, [divMMC Future](https://www.tfw8b.com/product/divmmc-future-sinclair-zx-spectrum/), ZX Interface 2 and [MaxDuino](https://lotharek.pl/productdetail.php?id=409).
