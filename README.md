@@ -40,9 +40,9 @@ Everything else is left intact.
 
 ## Board
 
-In Kicad 
+KiCad project of th board
 
-![ZX48K-Essentials_pcb](https://github.com/user-attachments/assets/eeb0a789-a39c-4bf2-a8fe-eb3485a0040e)
+![ZX48K-Essentials_pcb](https://github.com/user-attachments/assets/2b1f9256-820f-4266-8021-0cc318a1e85f)
 
 Fully assembled ZX48essentials PCB in green. 
 
