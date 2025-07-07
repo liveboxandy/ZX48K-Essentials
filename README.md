@@ -1,4 +1,4 @@
-# ZX48K-Essentials
+# ZX Spectrum 48K Essentials
 
 ## Introduction
 
