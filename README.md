@@ -42,7 +42,7 @@ Everything else is left intact.
 
 KiCad project of the board.
 
-![ZX48K-Essentials_pcb](https://github.com/user-attachments/assets/2b1f9256-820f-4266-8021-0cc318a1e85f)
+<img width="1318" height="848" alt="ZX48K-Essentials_board" src="https://github.com/user-attachments/assets/b8c8f0b3-91fb-40ea-a8ae-36fdfff5b1f5" />
 
 Fully assembled ZX48essentials PCB in green. 
 
