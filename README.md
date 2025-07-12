@@ -44,6 +44,8 @@ KiCad project of the board.
 
 <img width="1355" height="872" alt="ZX48K-Essentials_board" src="https://github.com/user-attachments/assets/bce295b1-d3a6-4221-8202-e0713f014a90" />
 
+<img width="1355" height="872" alt="ZX48K-Essentials_board" src="ZX48K-Essentials_board.png" />
+
 Fully assembled ZX48essentials PCB in green. 
 
 Tested with [Diagnostic ROM](https://blog.retroleum.co.uk/electronics-articles/a-diagnostic-rom-image-for-the-zx-spectrum/), Kempston Pro Joystick Interface, [divMMC Future](https://www.tfw8b.com/product/divmmc-future-sinclair-zx-spectrum/), ZX Interface 2 and [MaxDuino](https://lotharek.pl/productdetail.php?id=409).
