@@ -48,7 +48,7 @@ Fully assembled ZX48essentials PCB in green.
 
 Tested with [Diagnostic ROM](https://blog.retroleum.co.uk/electronics-articles/a-diagnostic-rom-image-for-the-zx-spectrum/), Kempston Pro Joystick Interface, [divMMC Future](https://www.tfw8b.com/product/divmmc-future-sinclair-zx-spectrum/), ZX Interface 2 and [MaxDuino](https://lotharek.pl/productdetail.php?id=409).
 
-![board_photo](ZX48K-Essentials_board_photo.jpg)
+<img src="ZX48K-Essentials_board_photo.png" />
 
 ## Remarks
 
