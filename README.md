@@ -40,7 +40,7 @@ Everything else is left intact.
 
 ## Board
 
-KiCad project of the board.
+Here is KiCad project of the board.
 
 <img src="ZX48K-Essentials_board.png" />
 
