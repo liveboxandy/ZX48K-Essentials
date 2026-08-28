@@ -11,6 +11,8 @@ Footprints were adjusted to fit the original pcb layout.
 Vias were a best guess for sizes.
 The BOM has not changed other than the JST connector should be JST_SHL_SM08B-SHLS-TF_1x08-1MP type.
 
+Original README.md follows,
+
 
 ## Introduction
 
