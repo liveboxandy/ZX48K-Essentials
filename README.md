@@ -1,5 +1,17 @@
 # ZX Spectrum 48K Essentials
 
+This clone of the original (https://github.com/tomekszafranski/ZX48K-Essentials) has the following additions,
+
+Full KiCAD 10 project including Schematic, PCB Data, Footprints, 3D Models and Symbols. 
+
+No changes were made to the pcb layout or traces.
+
+Symbols were adjusted to follow the original pdf schematic.
+Footprints were adjusted to fit the original pcb layout. 
+Vias were a best guess for sizes.
+The BOM has not changed other than the JST connector should be JST_SHL_SM08B-SHLS-TF_1x08-1MP type.
+
+
 ## Introduction
 
 Sinclair ZX Spectrum 48K computer released in April 1982 was not the best one compared to its competitors but for sure became one of the most influential ones. A lot of hobbyists who nowadays collect, repair or mod Spectrum, might be tempted to create their own version - keeping the original idea/design that makes a Z80 system the Spectrum: ULA with its contended memory architecture, content of the ROM, original case and rubber keyboard but getting rid of all nonsenses where you could easily do better, even back then. 

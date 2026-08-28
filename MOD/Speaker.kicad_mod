@@ -1,0 +1,105 @@
+(footprint "Speaker"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "LS1"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(uuid "cb1f44c6-01fa-4663-9cc0-793c9a0c0746")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Speaker"
+		(at 12.7 0.77 0)
+		(layer "F.Fab")
+		(uuid "125d643b-5e8c-4dc9-b2ef-c361a75f0cd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7446e068-a51e-49d1-9a4d-6b4e5b413caf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Speaker"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81384b71-bbdb-4ed1-98a7-ff9715d14b57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0.422)
+		(end 10.922 0.422)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a95ef0b-acd0-4675-938e-69190fad26af")
+	)
+	(fp_circle
+		(center -0.1848 0.422)
+		(end 7.4352 0.422)
+		(stroke
+			(width 0.305)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b3006efa-da80-4f02-a37f-7310c4a8c8ba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f160b565-1cfb-48d0-a9c8-07d908a839b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 12.4156 5.4276)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "601e3a84-c23a-470e-bd21-5f18a8d215e9")
+	)
+	(pad "2" thru_hole circle
+		(at 12.4156 -4.3724)
+		(size 1.2 1.2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e5f6750-25a3-4376-b9ea-0287ae2487ef")
+	)
+	(embedded_fonts no)
+)
